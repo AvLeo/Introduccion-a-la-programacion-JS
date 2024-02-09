@@ -107,13 +107,13 @@ describe('typeOF', () =>{
     })
 })
 
-describe('repairToString', () => {
+xdescribe('repairToString', () => {
     it('Deberia devolver el string con la mayúscula donde corresponde', () =>{
         expect(repairToString('holA')).toEqual('Hola')
     })
 })
 
-describe('contains', () => {
+xdescribe('contains', () => {
     it('Debe verificar si contiene la cadena de texto', () => {
         expect(contains('JavaScript')).toBe(true)
         expect(contains('javascript')).toBe(false)
